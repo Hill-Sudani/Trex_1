@@ -104,7 +104,7 @@ function draw() {
     }
     
     if (ground.x < camera.position.x){
-      ground.x = camera.position.x/2;
+      ground.x = camera.position.x*2;
     }
     
     //jump when the space key is pressed
